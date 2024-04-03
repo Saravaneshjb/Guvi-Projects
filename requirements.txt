@@ -1,0 +1,7 @@
+numpy
+pandas
+seaborn
+streamlit>=1.14
+mysql-connector-python
+google-api-python-client
+SQLAlchemy
