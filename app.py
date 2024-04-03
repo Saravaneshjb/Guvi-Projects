@@ -37,7 +37,7 @@ def extract_data():
     
     if st.button("Extract Channel Details"):
         # Call your channel_details function with API Key and user-provided channel ID
-        API_KEY = "AIzaSyDHCf3HwoldxHIYSHCB9JAeBYzx1hvg1WA"  # Replace "YOUR_API_KEY" with your actual YouTube API key
+        API_KEY = ""  # Replace "YOUR_API_KEY" with your actual YouTube API key
         directory="process_dataframe"
         if not os.path.exists(directory):
             os.makedirs(directory)

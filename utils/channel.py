@@ -2,12 +2,6 @@ import googleapiclient.discovery
 import pandas as pd
 import logging
 
-# Replace with your YouTube Data API v3 API key
-API_KEY = "AIzaSyBgFY8OEiMSK-sq8Odr1yu2_T7v06du2fM"
-
-# Define the channel ID
-CHANNEL_ID = "UCduIoIMfD8tT3KoU0-zBRgQ" #Guvi
-# CHANNEL_ID ="UCJcCB-QYPIBcbKcBQOTwhiA" #Vjsiddhu vlogs
 
 
 def channel_details(API_KEY, CHANNEL_ID):
@@ -58,5 +52,5 @@ def channel_details(API_KEY, CHANNEL_ID):
     channel_df=pd.DataFrame(data).T
     return channel_df
 
-if __name__ == "__main__":
-    channel_details(API_KEY, CHANNEL_ID)
+# if __name__ == "__main__":
+#     channel_details(API_KEY, CHANNEL_ID)

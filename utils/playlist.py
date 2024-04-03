@@ -2,13 +2,6 @@ import googleapiclient.discovery
 import pandas as pd
 import logging
 
-# Replace with your YouTube Data API v3 API key
-API_KEY = "AIzaSyBgFY8OEiMSK-sq8Odr1yu2_T7v06du2fM"
-
-# Define the channel ID
-# CHANNEL_ID = "UCduIoIMfD8tT3KoU0-zBRgQ"
-CHANNEL_ID ="UCJcCB-QYPIBcbKcBQOTwhiA"
-
 
 def playlist_details(API_KEY, CHANNEL_ID):
         # Define the YouTube service object
@@ -48,5 +41,5 @@ def playlist_details(API_KEY, CHANNEL_ID):
     # print(playlist_df)
     return playlist_df, playlist_dict['playlist_id']
 
-if __name__ == "__main__":
-    playlist_details(API_KEY, CHANNEL_ID)
+# if __name__ == "__main__":
+#     playlist_details(API_KEY, CHANNEL_ID)

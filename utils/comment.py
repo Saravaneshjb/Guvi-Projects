@@ -1,19 +1,7 @@
 import googleapiclient.discovery
 import pandas as pd
 import logging
-# from video import video_details
-# from playlist import playlist_details
 
-# # Define the API_KEY and the CHANNEL_ID
-# API_KEY = "AIzaSyDHCf3HwoldxHIYSHCB9JAeBYzx1hvg1WA"
-# CHANNEL_ID="UCduIoIMfD8tT3KoU0-zBRgQ" #Channel_id #Guvi Channel id
-# # Define the video ID
-# # VIDEO_ID ="hfDNdc9m11I"
-# PLAYLIST_LST=playlist_details(API_KEY,CHANNEL_ID)
-# VIDEO_LST= ['_kNrrFITwac','_Q0q2KbP4xE','_vmUgsrzXK4','-aNgkaxzZxY','-PGLrwPLFYI','-zWujhGwW0g','0-NCXuRCb5w']
-
-# print('The video list is :', VIDEO_LST)
-# print('The Length of Video list is :', len(VIDEO_LST))
 
 def comment_details(API_KEY, VIDEO_LST):
     # Define the maximum number of comments to retrieve (optional)

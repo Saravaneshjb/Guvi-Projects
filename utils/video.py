@@ -5,10 +5,6 @@ from utils.preprocessing import convert_duration
 from googleapiclient.errors import HttpError
 
 MAX_RESULTS=500
-# PLAYLIST_LST=['PL8Q-CmKVRc9r8qQEBhDrxAWxVn0A5YuX3','PL8Q-CmKVRc9pTiHiAfj7zzzwjm0TePERo','PL8Q-CmKVRc9rBKxXKNJ8AZvO76gPwMt5j','PL8Q-CmKVRc9rixGG5rvrQjeb5Sr3aDhRB',
-#               'PL8Q-CmKVRc9pnNuEfQ7QF0YgubNL2_39i','PL8Q-CmKVRc9q9FFNF2cXScWjgsTcc0_Ww','PL8Q-CmKVRc9pbC1fC4hnwHxN6MzX04r1O','PL8Q-CmKVRc9rmmeVoM4Tsv1BcOiRN7-qE',
-#               'PL8Q-CmKVRc9rXKnOEhQYE-NZfuezGgSj8','PL8Q-CmKVRc9og3lz59j09jMxjClYrs4dJ','PL8Q-CmKVRc9rV4xW4edHVi8QKKOLqPNyv']
-# API_KEY = "AIzaSyDHCf3HwoldxHIYSHCB9JAeBYzx1hvg1WA"
 
 def video_details(API_KEY, PLAYLIST_LST):
     youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=API_KEY)
